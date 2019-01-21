@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onDestroy() {
         super.onDestroy();
         Log.d("MY_LOG","MainActivity : onDestroy()");
-        System.exit(0);
     }
 
     @Override
